@@ -36,16 +36,3 @@ endif
 LOCAL_PREBUILT_MODULE_FILE := $(FINAL_APNS_FILE)
 
 include $(BUILD_PREBUILT)
-
-# Prebuilt apks will be add in GearMask Rom
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Lawnchair
-LOCAL_MODULE_OWNER := gm
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-

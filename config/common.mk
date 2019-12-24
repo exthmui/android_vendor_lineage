@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LockClock \
+    TrebuchetQuickStep \
     Updater \
     WeatherProvider
 
@@ -223,10 +224,6 @@ PRODUCT_PACKAGES += \
     sshd_config \
     ssh-keygen \
     start-ssh
-
-# Add prebuilt apks
-PRODUCT_PACKAGES += \
-    Lawnchair
 
 # rsync
 PRODUCT_PACKAGES += \
