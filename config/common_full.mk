@@ -1,5 +1,6 @@
 # Inherit common Lineage stuff
 $(call inherit-product, vendor/exthm/config/common_mobile.mk)
+$(call inherit-product, vendor/exthm/config/common.mk)
 
 PRODUCT_SIZE := full
 
